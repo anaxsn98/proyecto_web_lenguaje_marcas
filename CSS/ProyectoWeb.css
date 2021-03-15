@@ -55,7 +55,7 @@ img#LogoIMG{
 }
 .social{
 	font-family: "Monofonto";
-	src: url(FONTS/monofonto.ttf);
+	src: url(../FONTS/monofonto.ttf);
 	float: right;
 }
 
@@ -316,7 +316,7 @@ ul{
 	color:#DCDBDE;
 }
 .titulo-login{
-	background-image: url(IMG/gifFondo.gif);
+	background-image: url(../IMG/gifFondo.gif);
 	border-radius: 10px 10px 0px 0px;
 	width: 100%;
 }
