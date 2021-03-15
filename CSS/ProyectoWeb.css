@@ -1,17 +1,17 @@
 @font-face {
 	font-family: "Airstrike";
-	src: url(FONTS/airstrike.ttf);
+	src: url(../FONTS/airstrike.ttf);
 }
 @font-face {
 	font-family: "Monofonto";
-	src: url(FONTS/monofonto.ttf);
+	src: url(../FONTS/monofonto.ttf);
 }
 *{
 	margin: 0px;
 	padding: 0px;
 }
 body {
-	background-image: url(IMG/fondo2blur.jpg) ;
+	background-image: url(../IMG/fondo2blur.jpg) ;
 	size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
