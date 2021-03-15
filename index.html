@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="ProyectoWeb.css">
+	<link rel="icon" type="imagen/ico" href="IMG/LogoWeb.jpg">
+	<script type="text/javascript" src="JS/proyecto.js"></script>
+	<title>EmporioTech</title>
+</head>
+<body class="main">
+	<div class="principal">
+		<div class="header-index">
+			<div class="logoNombre">
+			<div class="logo">
+				<img src="IMG/LogoWeb.png" id="LogoIMG">
+			</div>
+			<div class="nombre">
+				<h1 class="nombreEmp" align="center">EMPORIOTECH</h1>
+			</div>
+			</div>
+			<div class="info">
+				
+				<h2  class="intro">¿ESTÁS BUSCANDO LA MEJOR EMPRESA PARA RESOLVER TUS PROBLEMAS INFORMÁTICOS?</h2>
+				<hr color="#DCDBDE">
+				
+				<h3 class="desc">Acá en Emporiotech conseguirás las mejores alternativas que te brindarán soluciones a todo tipo de necesidad que tengas, desde cosas tan simples como adquirir tus mejores componentes electronicos, a cosas ya más elevadas como el desarrollo de tus ideas de emprender en el ambito de aplicaciones o proyectos informáticos. No dudes en navegar por nuestra web y si necesitas más informácion que la que te ofrecemos en el apartado de contacto resolveremos todas tus dudas.  </h3>
+				
+				<p align="center"><img src="IMG/50off.png"><h2 class="off">Disfruta 50% en toda la página por inauguración!</h2></img></p>
+
+			</div>
+		</div>
+		<div class="cuerpo">
+		<a href="#" class="abrir" onclick="desplegar()">
+			<span class="linea"></span>
+			<span class="linea"></span>
+			<span class="linea"></span>
+		</a>
+		<div class="menu"id="menu">
+
+
+			<a href="#" class="cerrar" onclick="desplegar()">x</a>
+			<ul class="nav">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="#">Servicios</a>
+				<ul>
+					<li><a href="mantenimiento.html">Mantenimiento</a></li>
+					<li><a href="gestionSistemas.html">Gestión de Sistemas</a></li>
+					<li><a href="desProyectos.html">Desarrollo de Proyectos</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Productos</a>
+				<ul>
+					<li><a href="Perifericos.html">Periféricos</a></li>
+					<li><a href="#">Marcas Asociadas ></a>
+						<ul>
+							<li><a href="Apple.html">Apple</a></li>
+							<li><a href="MSI.html">MSI</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="Instalaciones.html">Proyectos</a></li>
+			<li><a href="QuienesSomos.html">Quienes Somos</a></li>
+			<li><a href="Contacto.html">Contacto</a></li>
+			<li><a href="Cliente.html">Area de Clientes</a></li>
+			<li><a href="Noticias.html">Blog de Noticias</a></li>
+		</ul></div>
+		<div class="contenido-index">
+			<div class="centro">
+				<h2  class="intro">AGENDA UNA CITA CON NOSOTROS.</h2>
+				<hr color="#DCDBDE">
+				<br>
+				<div class= "galeria" id="galeria"> 
+					<a href="Apple.html" class="miniatura">
+						<img src="IMG/macbook.jpeg" alt="">
+						<p>Conoce nuestros productos Apple</p>
+					</a> 
+					<a href="MSI.html" class="miniatura">
+						<img src="IMG/msi.jpeg" alt="">
+						<p>Conoce nuestros productos MSI</p>
+					</a> 
+					<a href="mantenimiento.html" class="miniatura">
+						<img src="IMG/sMantenimiento.jpeg" alt="">
+						<p>Conoce nuestros servicios de mantenimiento</p>
+					</a> 
+					<a href="desProyectos.html" class="miniatura">
+						<img src="IMG/servidores.jpg" alt="">
+						<p>Pon tu confianza en nuestro desarrollo de proyectos</p>
+					</a> 
+					<a href="Perifericos.html" class="miniatura">
+						<img src="IMG/impresora.jpeg" alt="">
+						<p>Conoce la última tecnología en periféricos</p>
+					</a> 
+				</div>
+
+
+
+			</div>
+			<div class="lateral">
+				<h2  class="intro">AGENDA UNA CITA CON NOSOTROS.</h2>
+				<hr color="#DCDBDE">
+				<br>
+			<form action="mailto:raul.rodriguez@universidadeuropea.es" method="POST" name="DAM">
+			<p>
+				<label for="nombre" name="nombre">Nombre:</label>
+				<input type="text" name="nombre" required=""r>
+			</p>
+			<br>
+			<p>
+				<label for="datetime">Fecha y Hora:</label>
+				<input type="datetime-local" name="datetime">
+			</p>
+			<br>
+				<label for="comentarios">Razón de tu cita:</label>
+			<br>	
+				<textarea name="comentarios" cols="27" rows="10"></textarea>
+			<br>
+			<p align="center">
+				<button type="submit" class="boton">Enviar</button>
+				<button type="reset" class="boton">Borrar</button>
+			</p>	
+			</form>	
+			<br>
+			<p align="center">
+			<img src="IMG/gracias.jpg" height="70px" width="140px">
+			</p>
+			</div>
+		</div>
+		</div>
+		<div class="footer">
+			<p align="center">Grupo Emporiotech® Derechos de autor pagina Web: Miguel Arroyo, Ignacio  López, Ana Simango. ©</p>
+		</div>
+	</div>
+</body>
+</html>

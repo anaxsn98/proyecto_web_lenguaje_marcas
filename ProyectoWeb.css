@@ -1,0 +1,714 @@
+@font-face {
+	font-family: "Airstrike";
+	src: url(FONTS/airstrike.ttf);
+}
+@font-face {
+	font-family: "Monofonto";
+	src: url(FONTS/monofonto.ttf);
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	background-image: url(IMG/fondo2blur.jpg) ;
+	size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+}
+
+
+.header-index{
+	margin-top: 90px;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.info{
+	height: 100px;
+	width: 1000px;
+	color: #fff;
+}
+.info h2,.info h3{
+	margin-top: 20px;
+}
+.logo{
+	height: 90%;
+	width: 20%;
+	float: left;
+	border-radius: 15px;
+
+	align-content: center;
+}
+img#LogoIMG{
+	border: 3px;
+	border-radius: 25%;
+	align-self: center;
+	height: 100%;
+	width: 180px;
+}
+.social{
+	font-family: "Monofonto";
+	src: url(FONTS/monofonto.ttf);
+	float: right;
+}
+
+.cuerpo{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+}
+.principal{
+	height: 1000px;
+	width: 100%;
+	margin: 5px auto;
+	padding: 0.5em;
+}
+
+.menu{
+	width: 300px;
+	margin: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.contenido{
+	height: 55%;
+	width: 95%;
+	padding: 2px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.contenido-index{
+	display: flex;
+	justify-content: center;
+}
+.conR{
+	border-radius: 15px;
+	width: 500px;
+}
+.contenido-registro{
+	width: calc(100% - 250px);
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column; 
+}
+
+
+.galimagenes{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.lateral-direccion{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.lateral-direccion p{
+	margin-left: 20px;
+}
+.desc ul li{
+	margin-bottom: 15px;
+}
+.footer{
+	font-family: "Airstrike";
+	font-size: 15px;
+	color: #DCDBDE;
+	height: 5%;
+	border-radius: 15px;
+	margin: 1em;
+	padding: 4em;
+	align-items: center;
+}
+.centro{
+	height: 93%;
+	width: 95%;
+	color:#DCDBDE;
+	padding: 10px;
+}
+.lateral{
+	height: 93%;
+	color:#DCDBDE;
+	border-radius: 15px;
+	margin: 1em;
+	margin-top: 0;
+	padding: 8px;
+	padding-top: 10px;
+	
+	width: 65%;
+}
+.lateral-qs{
+	margin-left: 200px;
+	height: 400px;
+}
+form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.nombre{
+	align-content: center;
+	height: 80%;
+	width: 70%;
+	float: right;
+	border-radius: 15px;
+	margin: 1em;
+}
+.nombreEmp{
+	align-self: center;
+	margin: 0.2em;
+	font-family: "Airstrike";
+	font-size: 100px;
+	color: #DCDBDE;
+}
+ul{
+    list-style: none;
+
+}
+
+.nav li a{
+	margin-bottom: 10px;
+	border-radius: 10px;
+    text-align: center;
+    color:#DCDBDE;
+    text-decoration: none;
+    padding: 10px 15px;
+    display:block;
+    font-family: "Airstrike";
+    font-size: 32px;
+}
+.nav li a:hover{
+	background-color: #fff;
+    color: #564AED;
+}
+
+.nav li ul{
+    display:none;
+    left: calc(100% + 4px);
+    top: 10px;
+    min-width: 140px;
+    background-color: #fff;
+    color: #564AED;
+    border-radius: 10px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+.nav li ul li{
+    position:relative;
+}
+.nav li ul li ul{
+    right: -140px;
+    top:0px;
+}
+.intro{
+	font-family: "Monofonto";
+	font-size: 28px;
+	margin-top: 0;
+
+}
+.desc{
+	font-family: "Monofonto";
+	font-size: 22px;
+	text-align: justify;
+}
+.off{
+	font-family: "Monofonto";
+	font-size: 15px;
+	text-align: justify;
+	align-self: center;
+}
+.boton{
+	align-self: center;
+	background-color:#DCDBDE;
+}
+.staff{
+	height: 120px;
+	width: 90px;
+}
+.qs{
+	height:80px; 
+	width:160px;
+	border: 3px;
+	border-radius: 10px;
+}
+.inst{
+	height:95px; 
+	width:160px;
+	margin-right: 1em;
+	margin-left: 1em;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+	border: 3px;
+	border-style: inset;
+	border-radius: 25px;
+}
+.banderas{
+	height:65px; 
+	width:130px;
+	margin-top: 0.3em;
+}
+.list{
+	margin-left: 1.7em;
+}
+.pic{
+	float: right;
+}
+.piccon{
+	height: 135px;
+	width: 250px;
+	margin: 4px;
+	border: 4px;
+	border-style: outset;
+	border-radius: 15px;
+}
+.map{
+	height: 175px;
+	width: 220px;
+	border-style: outset;
+}
+.ub{
+	font-size: 17px;
+}
+.h1login{
+	font-family: "Airstrike";
+	color: white;
+
+	font-size: 55px;
+}
+.formulario{
+	align-content: center;
+	border-radius: 7px;
+	border-style: dotted;
+}
+.perif{
+	margin: 15px;
+	border: 5px;
+	border-style: outset;
+	border-radius: 15px;
+	height: 135px;
+	width: 220px;
+}
+
+.centro-login{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 93%;
+	width: 95%;
+	border-radius: 15px;
+	margin: 1em;
+	color:#DCDBDE;
+}
+.titulo-login{
+	background-image: url(IMG/gifFondo.gif);
+	border-radius: 10px 10px 0px 0px;
+	width: 100%;
+}
+.contenedor-login{
+	width: 100%;
+	padding: 15px;
+	font-family: "Airstrike";
+	color: #848484;
+
+}
+.formulario-login{
+	background: white;
+	margin-top: auto;
+	width: 500px;
+	border-radius: 10px;
+	font-family: "Monofonto";
+}
+h1{
+	padding-top: 20px;
+	text-align: center;
+	color: #1A2537;
+	font-size: 40px;
+}.input-login{
+	text-align: center;
+	font-size: 20px;
+	width: 80%;
+	padding:10px;
+	border: none;
+}
+.input-cont{
+	margin-bottom: 15px;
+	margin-left: 24px;
+	width: 87%;
+	border: 1px solid #AAA;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: dotted;
+	font-family: "Monofonto";	
+}
+.button{
+	border: none;
+	margin-left: 10px;
+	width: 95%;
+	font-size: 20px;
+	color: white;
+	background: #1A2537;
+	padding: 15px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-family: "Airstrike";
+}
+.button:hover{
+	background: cadetblue;
+}
+p{
+	text-align: center;
+}
+.link{
+	text-decoration: none;
+	color: #1A2537;
+}
+.link:hover{
+	color: cadetblue;
+}
+.contenedor-galeria{
+	width: 600px;
+	height: 320px;
+	overflow: hidden;
+	margin: 50px auto;
+	border-radius: 10px;
+}
+.fotosGal{
+	width: 600px;
+	height: 320px;
+	border-style: inset;
+	border: 10px;
+}
+.divgalerias{
+	width: 600px;
+	height: 320px;
+	margin-right: 55px; 
+	background-color: #0A1B2A;
+	border-style:outset;
+	border-radius: 14px; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.proyectos-titulo{
+	background:#A4A4A4;
+	border-radius: 10px;
+	border-style: inset;
+	color: white;
+}
+.pro{
+	color: white;
+}
+
+
+.abrir{
+	display: none;
+	width: 30px;
+	padding: 5px 5px 0;
+	margin: 20px;
+	border-radius: 5px;
+	border: 1px solid #24f;
+	color: #fff;
+}
+
+.linea{
+	display: block;
+	height: 5px;
+	background-color: #fff;
+	margin-bottom: 5px;
+}
+
+.cerrar{
+	display: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 2.5em;
+	padding: 10px;
+	float: right;
+}
+
+h3 ol li{
+	margin-top: 15px;
+}
+h3, h2{
+	margin-top: 15px;
+}
+
+.galeria{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.miniatura{
+	/*Estilizar la miniatura, es un boton para convertirlo a bloque se pone display*/
+	/*Usamos al elemento como máscara por eso le damos altura y anchura*/
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 20px 10px;
+	/*Para mover el parrafo necesito que esté en posición relativa*/
+	position: relative;
+	overflow: hidden;/*para que no se vea*/
+
+}
+.miniatura img{
+	/*hay que convertirlo a bloque se pone display: block*/
+	display: block;
+	width: 100%;
+}
+.miniatura p{
+	padding: 0 10px;
+	font-family: "Monofonto";
+	src: url(FONTS/monofonto.ttf);
+	background-color: rgba(255,255,255,0.9);
+	color: #0B3861;
+	font-weight: bolder;
+	height: 100%; /*estaríamos dejando el alto fijo no fluiría*/
+	text-align:center;
+	text-decoration: none; 
+	padding-top: calc(50% - 8px); /*Calc siempre toma como referencia al padre*/
+    box-sizing: border-box;
+    position: absolute; /*ya no reconoce a su padre a no ser que se ponga width*/
+    width: 100%;
+    transition: 0.4s;/*Si hay cambio de propiedades el se toma el tiempo para realizarlo*/
+    top: 100%;/*Se aleja todo el alto de su padre por eso se queda en la misma posición*/
+}
+
+.miniatura:hover p{ /*Seleccionamos el parrafo dentro de la miniatura siempre que pasemos el ratón*/
+	top: 0;
+}
+
+.esconder{
+	display: none;
+}
+@media screen and (max-width: 900px){
+	.galimagenes{
+		display: block;
+	}
+	.info{
+		width: 90%;
+	}
+	.galeria{
+		width: 480px;
+	}
+	.principal{
+		width: 1024px;
+		padding-right: 0;
+		width: 100%;
+	}
+	.header{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 90%;
+		margin: 0;
+	}
+	.logo{
+		height: 100px;
+	}
+
+	.abrir{
+		display: block;
+	}
+	.cerrar{
+		display: inline-block;
+	}
+	img#LogoIMG{
+		height: 90%;
+		width: 120px;
+	}
+	.nombre{
+		width: 60%;
+		height: 50%;
+	}
+
+	.nombre h1{
+		height: 100%;
+		width: 100%;
+		padding: calc(100% -10px);
+		margin: 0;
+		font-size: 3em;
+	}
+	.cuerpo{
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.menu{
+		height: 100vh;
+		width:95%; 
+		position: fixed;
+		top: 100vh;
+		left: 0;
+		transition: 0.6s;
+	}
+	.desplegado{
+		top: 0;
+		background-color: #0A1B2A; 
+	}
+
+	.nav{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	.nav li{
+	    margin-right: 10px;
+	}
+	.nav li ul{
+		position: relative;
+	    left: 0;
+	    top:0px;
+	}
+
+
+	.nav li a{
+		font-size: 20px;
+	}
+
+	.contenido-registro{
+		margin: 0 0;
+	}
+	.centro{
+		width: 90%;
+		padding: 20px;
+	}
+
+	.lateral{
+		width: 90%;
+	}
+
+	.divgalerias{
+		width: 90%;
+		margin: 50px auto;
+	}
+	.contenedor-galeria{
+		margin: 0 0;
+	}
+
+	.fotosGal{
+		width: 450px;
+	}
+	.divgalerias{
+		width: 450px;
+		height: 100%;
+	}
+	
+	.lateral-qs{
+		margin-left: 10px;
+	}
+}
+
+
+@media screen and (max-width: 400px){
+	.intro,.desc ul li{
+		font-size: 0.8em;
+	}
+	.intro{
+		font-size: 1.8em;
+	}
+
+	.divgalerias{
+		width: 90%;
+	}
+	.contenedor-galeria{
+		width: 500px;
+	}
+	p img,img#LogoIMG{
+		height: 80%;
+		width: 90px;
+	}
+	.nombre{
+		width: 100%;
+		height: 40%;
+	}
+
+	.nombre h1{
+		margin: 0;
+		font-size: 1.5em;
+		padding: 0;
+		padding-top: 25px;
+	}
+	.contenido{
+		padding-top: 20px; 
+	}
+
+	.centro{
+		margin: 0;
+		padding: 0;
+		padding: 10px;
+	}
+	.fotosGal{
+		height: 100%;
+		width: 300px;
+	}
+	.galeria{
+		width: 240px;
+	}
+	.lateral-direccion .desc{
+		font-size: 0.8em;
+	}
+	.formulario{
+		border-style: none;
+	}
+	.conR{
+		width: 90%;
+		background-color: transparent;
+	}
+
+	.contenido-registro{
+		width: 100%;
+		height: 500px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.contenido-index{
+		flex-direction: column;
+	}
+	.centro-login{
+		margin: 0;
+		height: 100%;
+	}
+	.centro-login form{
+		margin: 0;
+	}
+	.titulo-login{
+		height: 70px;
+		text-align: center;
+	}
+	.titulo-login h1{
+		padding: 0;
+		padding-top: 15px;
+		font-size: 2.5em;
+	}
+
+	.miniatura{
+		overflow: scroll;
+	}
+	.cuerpo{
+		margin-top: 90px;
+	}
+}

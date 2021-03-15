@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="ProyectoWeb.css">
+	<script type="text/javascript" src="JS/proyecto.js"></script>
+	<link rel="icon" type="imagen/ico" href="IMG/LogoWeb.jpg">
+	<title>EmporioTech</title>
+</head>
+<body class="main">
+	<div class="principal">
+		<div class="header">
+			<div class="logo">
+				<img src="IMG/LogoWeb.png" id="LogoIMG">
+			</div>
+			<div class="nombre">
+				<h1 class="nombreEmp" align="center">EMPORIOTECH</h1>
+			</div>
+		</div>
+		<div class="cuerpo">
+		<a href="#" class="abrir" onclick="desplegar()">
+			<span class="linea"></span>
+			<span class="linea"></span>
+			<span class="linea"></span>
+		</a>
+		<div class="menu" id="menu">
+			<a href="#" class="cerrar" onclick="desplegar()">x</a>
+			<ul class="nav">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="#">Servicios</a>
+				<ul>
+					<li><a href="mantenimiento.html">Mantenimiento</a></li>
+					<li><a href="gestionSistemas.html">Gestión de sistemas</a></li>
+					<li><a href="desProyectos.html">Desarrollo de Proyectos</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Productos</a>
+				<ul>
+					<li><a href="Perifericos.html">Periféricos</a></li>
+					<li><a href="#">Marcas Asociadas ></a>
+						<ul>
+							<li><a href="Apple.html">Apple</a></li>
+							<li><a href="MSI.html">MSI</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="Instalaciones.html">Proyectos</a></li>
+			<li><a href="QuienesSomos.html">Quienes Somos</a></li>
+			<li><a href="Contacto.html">Contacto</a></li>
+			<li><a href="Cliente.html">Area de Clientes</a></li>
+			<li><a href="Noticias.html">Blog de Noticias</a></li>
+		</ul></div>
+		<div class="contenido-registro">
+			<div class="conR">
+			<div class="centro-login">
+				<form method="post" class="formulario-login" onsubmit="return validar()">
+					<div class="titulo-login">
+						<h1 class="h1login">LOGIN</h1>
+					</div>	
+					<hr>
+					<div class="contenedor-login">
+						<div class="input-cont">
+							<img class="icon" src="ICONS/mail.png">
+							<input type="text" id="mail" placeholder="Correo Electronico" class="input-login">
+						</div>
+					<div class="input-cont">
+						<img class="icon" src="ICONS/password.png">
+						<input type="password" id="password" placeholder="Contrasena" class="input-login">
+					</div>
+						<input type="submit" value="Login" class="button">
+						<br>
+						<p>Al registrar acepta los usos y condiciones</p>
+						<br>
+						<P>No tiene cuenta? <a class="link" href="registro.html">Registro</a> </P>
+					</div>
+	</form>
+			</div>
+			</div>
+		</div>
+		</div>
+		<div class="footer">
+			<p align="center">Grupo Emporiotech® Derechos de autor pagina Web: Miguel Arroyo, Ignacio  López, Ana Simango. ©</p>
+		</div>
+	</div>
+</body>
+</html>

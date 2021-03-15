@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="ProyectoWeb.css">
+	<link rel="icon" type="imagen/ico" href="IMG/LogoWeb.jpg">
+	<script type="text/javascript" src="JS/proyecto.js"></script>
+	<title>Document</title>
+</head>
+<body>
+	<div class="principal">
+		<div class="header">
+			<div class="logo">
+				<img src="IMG/LogoWeb.png" id="LogoIMG">
+			</div>
+			<div class="nombre">
+				<h1 class="nombreEmp" align="center">EMPORIOTECH</h1>
+			</div>
+		</div>
+		<div class="cuerpo">
+		<a href="#" class="abrir" onclick="desplegar()">
+			<span class="linea"></span>
+			<span class="linea"></span>
+			<span class="linea"></span>
+		</a>
+		<div class="menu"id="menu">
+
+
+			<a href="#" class="cerrar" onclick="desplegar()">x</a>
+			<ul class="nav">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="#">Servicios</a>
+				<ul>
+					<li><a href="mantenimiento.html">Mantenimiento</a></li>
+					<li><a href="gestionSistemas.html">Gestión de Sistemas</a></li>
+					<li><a href="desProyectos.html">Desarrollo de Proyectos</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Productos</a>
+				<ul>
+				<li><a href="Perifericos.html">Periféricos</a></li>
+					<li><a href="#">Marcas Asociadas ></a>
+						<ul>
+							<li><a href="Apple.html">Apple</a></li>
+							<li><a href="MSI.html">MSI</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="Instalaciones.html">Proyectos</a></li>
+			<li><a href="QuienesSomos.html">Quienes Somos</a></li>
+			<li><a href="Contacto.html">Contacto</a></li>
+			<li><a href="Cliente.html">Area de Clientes</a></li>
+			<li><a href="Noticias.html">Blog de Noticias</a></li>
+		</ul></div>
+		<div class="contenido">
+			<div class="centro">
+				<p>
+				<h2  class="intro">PERIFÉRICOS CON LOS QUE CONTAMOS.</h2>
+				<hr color="#DCDBDE">
+				<br>
+				<h3 class="desc">Contamos con muchos perifericos acá en nuestras instalaciones para que le añadas los mejores componentes posibles a tu PC, al mejor precios. Trabajamos con monitores, impresoras, ratones, altavoces de la más alta gama trabajando directamente con compañias como epson, asus, bose, entre otras, no dudes en hacer tu cita para adquirir lo que necesites que sin duda tendremos algo a tu medido.</h3>
+				<br>
+				<h2  class="intro">¿Cómo es el proceso?</h2>
+				<h3 class="desc">Agendas tu cita con nosotros y un asesor estará de manera personal contigo para lo que necesites
+				</h3>
+				<br>
+				<div class="divgalerias">
+				<div class="contenedor-galeria"> 
+					<img src="IMG/asus.jpg" class="fotosGal">
+					<img src="IMG/epson.jpg" class="fotosGal">
+					<img src="IMG/mouse.jpg" class="fotosGal">
+				</div>	
+				<script type="text/javascript">
+						var inicio = 0;
+						carrusel();
+					</script>
+				</div>	
+				</p>
+			</div>
+			<div class="lateral">
+				<h2  class="intro">AGENDA UNA CITA CON NOSOTROS.</h2>
+				<hr color="#DCDBDE">
+				<br>
+			<form action="mailto:raul.rodriguez@universidadeuropea.es" method="POST" name="DAM">
+			<p>
+				<label for="nombre" name="nombre">Nombre:</label>
+				<input type="text" name="nombre" required=""r>
+			</p>
+			<br>
+			<p>
+				<label for="datetime">Fecha y Hora:</label>
+				<input type="datetime-local" name="datetime">
+			</p>
+			<br>
+				<label for="comentarios">Razón de tu cita:</label>
+			<br>	
+				<textarea name="comentarios" cols="27" rows="10"></textarea>
+			<br>
+			<p align="center">
+				<button type="submit" class="boton">Enviar</button>
+				<button type="reset" class="boton">Borrar</button>
+			</p>	
+			</form>	
+			<br>
+			<p align="center">
+			<img src="IMG/gracias.jpg" height="70px" width="140px">
+			</p>
+			</div>
+		</div>
+		</div>
+		<div class="footer">
+			<p align="center">Grupo Emporiotech® Derechos de autor pagina Web: Miguel Arroyo, Ignacio  López, Ana Simango. ©</p>
+		</div>
+	</div>
+</body>
+</html>

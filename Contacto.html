@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="ProyectoWeb.css">
+	<script type="text/javascript" src="JS/proyecto.js"></script>
+	<link rel="icon" type="imagen/ico" href="IMG/LogoWeb.jpg">
+
+	<title>Emporiotech</title>
+</head>
+<body>
+	<div class="principal">
+		<div class="header">
+			<div class="logo">
+				<img src="IMG/LogoWeb.png" id="LogoIMG">
+			</div>
+			<div class="nombre">
+				<h1 class="nombreEmp" align="center">EMPORIOTECH</h1>
+			</div>
+		</div>
+		<div class="cuerpo">
+
+
+		<a href="#" class="abrir" onclick="desplegar()">
+			<span class="linea"></span>
+			<span class="linea"></span>
+			<span class="linea"></span>
+		</a>
+
+
+		<div class="menu" id="menu">
+
+
+			<a href="#" class="cerrar" onclick="desplegar()">x</a>
+
+
+			<ul class="nav">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="#">Servicios</a>
+				<ul>
+					<li><a href="mantenimiento.html">Mantenimiento</a></li>
+					<li><a href="gestionSistemas.html">Gestión de Sistemas</a></li>
+					<li><a href="desProyectos.html">Desarrollo de Proyectos</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Productos</a>
+				<ul>
+			<li><a href="Perifericos.html">Periféricos</a></li>
+					<li><a href="#">Marcas Asociadas ></a>
+						<ul>
+							<li><a href="Apple.html">Apple</a></li>
+							<li><a href="MSI.html">MSI</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li><a href="Instalaciones.html">Proyectos</a></li>
+			<li><a href="QuienesSomos.html">Quienes Somos</a></li>
+			<li><a href="Contacto.html">Contacto</a></li>
+			<li><a href="Cliente.html">Area de Clientes</a></li>
+			<li><a href="Noticias.html">Blog de Noticias</a></li>
+		</ul></div>
+		<div class="contenido">
+			<div class="centro">
+				<p>
+				<h2  class="intro">DEJANOS TUS DATOS PARA CONTACTARTE</h2>
+				<hr color="#DCDBDE">
+				<br>
+				<h3 class="desc">
+					<form action="http://www.universidadeuropea.es" method="POST" name="DAM" class="formulario">
+		<fieldset class="formulario">
+				<legend><h3 class="intro">Datos Personales</h3></legend>
+					<label for="nombre" name="nombre">Nombre Y Apellidos:</label>
+					<input type="text" name="nombre" required=""r>
+				<br>
+					<label for="direccion" name="direccion">Dirección:</label>
+					<input type="text" name="direccion">
+				<br>
+					<label for="codigopostal" name="codigopostal">Código Postal:</label>
+					<input type="text" name="codigopostal" required="" maxlength="5">
+				<br>
+					<label for="email">Email</label>
+					<input type="email" name="email" required="">
+				<br>
+					<label for="tel">Telefono</label>
+					<input type="tel" name="tel">		
+				<br>
+				<label for="dispositivos">Asunto:</label>
+				<br>
+					<input type="checkbox" name="asunto" value="Consultoria">Consultoría
+					<input type="checkbox" name="asunto" value="Desarrollo" checked="">Desarrollo
+					<input type="checkbox" name="asunto" value="Pedidos">Pedidos
+					<input type="checkbox" name="asunto" value="Otros">Otros
+				<br>
+					<label for="comentarios">Comentarios</label>
+				<br>	
+					<textarea name="comentarios" cols="30" rows="10"></textarea>	
+				<br>
+					<label for="fichero">Archivos</label>
+					<input type="file" name="fichero">
+					<br>
+					<button type="submit" class="boton">Enviar</button>
+					<button type="reset" class="boton3">Borrar</button>
+		</fieldset>
+			
+	</form></h3>
+				</p>
+			</div>
+			<div class="lateral">
+				<h2  class="intro">SOBRE NOSOTROS.</h2>
+				<hr color="#DCDBDE">
+				<br>
+				<div class="lateral-direccion">
+				<img src="IMG/uemmaps.jpg" class="map">
+				<p>
+					<h3 class="desc ub"><ul>
+						<li>Dirección: Universidad Europea de Madrid. Campus Villaviciosa de Odón. Calle Tajo S/N Villaviciosa de Odón. Madrid</li>
+						<li>TLF: 91 211 56 73</li> 
+						<li>Mail: emporiotech@gmail.com</li>
+					</ul></h3>
+				</p>
+				</div>
+			</div>
+		</div>
+
+		</div>
+		<div class="footer">
+			<p align="center">Grupo Emporiotech® Derechos de autor pagina Web: Miguel Arroyo, Ignacio  López, Ana Simango. ©</p>
+		</div>
+	</div>
+
+</body>
+</html>
